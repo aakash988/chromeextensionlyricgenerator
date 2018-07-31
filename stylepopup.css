@@ -1,0 +1,86 @@
+body {
+	min-width: 700px;
+	min-height: 450px;
+	overflow:hidden;
+	font-size: 20px;
+	background: url('../what-the-hex.png');
+}
+
+#changelyrics {
+	margin:0;
+}
+
+h1 {
+	margin: 0;
+	font-family: 'Basic', sans-serif;
+	color: #484848;
+}
+
+p {
+	margin: 0;
+	white-space:pre-wrap;
+	font-family: 'Lato', sans-serif;
+}
+
+.hidden {
+	display: none;
+}
+
+
+#changelyrics {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Lato', sans-serif;
+  color: #ededed;
+  font-size: 16px;
+  background: #074269;
+  padding: 6px 13px 4px 11px;
+  text-decoration: none;
+}
+
+#changelyrics:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+
+#searchsongonyoutube {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Lato', sans-serif;
+  color: #ededed;
+  font-size: 16px;
+  background: #074269;
+  padding: 6px 13px 4px 11px;
+  text-decoration: none;
+  margin-left: 150px;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+
+#searchsongonyoutube:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+ }
+
+ #searchsongonspotify {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Lato', sans-serif;
+  color: #ededed;
+  font-size: 16px;
+  background: #074269;
+  padding: 6px 13px 4px 11px;
+  text-decoration: none;
+  margin-left: 110px;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+
+#searchsongonspotify:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+ }
